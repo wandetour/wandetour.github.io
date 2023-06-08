@@ -59,7 +59,7 @@ input.aButton:hover {
   transition: background-color 0.3s, color 0.3s;
 }
 
-input.aButton:focus /*retains white outline even after clicks*/
+input.aButton:focus
 {
     outline:none;
 }
