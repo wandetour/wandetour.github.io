@@ -39,6 +39,40 @@ input.aButton {
     text-align: center;
     outline: none;
     text-decoration: none;
-    text-shadow: 10px 10px 300px #000; /* hor
+    text-shadow: 10px 10px 300px #000; /* hori, vert, blur */
+}
 
+input.aButton:hover {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+}
 
+input.aButton:focus {
+    outline: none;
+}
+
+#quoteD {
+    font-family: sans-serif;
+    color: #ffffff;
+    text-shadow: 10px 10px 100px #000; /* hori, vert, blur */
+    font-size: 250%;
+}
+
+/* style for mobile and tablet devices */
+@media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 250%;
+    }
+
+    input.aButton {
+        width: 85px;
+        padding: 5px;
+        font-size: 85%;
+    }
+
+    #quoteD {
+        font-size: 125%;
+        line-height: 100%;
+    }
+}
