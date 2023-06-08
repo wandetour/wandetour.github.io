@@ -8,7 +8,6 @@ var quotes = [
     'If you hear a voice within you say \'you cannot paint,\' then by all means paint and that voice will be silenced.<br><br>Vincent Van Gogh',
     'The surest way not to fail is to determine to succeed.<br><br>Richard B. Sheridan',
     'Desire is the starting point of all achievement, not a hope, not a wish, but a keen pulsating desire, which transcends everything.<br><br>Napoleon Hill',
-    'Again, you can\'t connect the dots looking forward. You can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something, whether your gut, destiny, life, karma, whatever. This approach has never let me down and it has made all the difference in my life.<br><br>Steve Jobs',
     'A computer once beat me at chess, but it was no match for me at kickboxing.<br><br>Emo Philips',
     'Whether I fail or succeed shall be no man\'s doing but my own. I am the force.<br><br>Elaine Maxwell',
     'To find a fault is easy, to do better may be difficult.<br><br>Plutarch',
