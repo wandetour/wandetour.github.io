@@ -140,7 +140,12 @@ var quotes = [
     'If you want to make your dreams come true, the first thing you have to do is wake up.<br><br>J.M. Power',
     'Twenty years from now you will be more disappointed by the things that you didn\’t do than by the ones you did do.<br><br>Mark Twain',
     'Work until your idols become your rivals.<br><br>Drake',
-    'If you truly pour your heart into what you believe in, even if it makes you vulnerable, amazing things can and will happen.<br><br>Emma Watson'
+    'If you truly pour your heart into what you believe in, even if it makes you vulnerable, amazing things can and will happen.<br><br>Emma Watson',
+    'Believe you can, and you\'re halfway there.<br><br>Theodore Roosevelt',
+    'Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.<br><br>Albus Dumbledore',
+    'It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.<br><br>Albus Dumbledore',
+    'It is important to fight, and fight again, and keep fighting, for only then can evil be kept at bay, though never quite eradicated.<br><br>Albus Dumbledore',
+    'In the middle of every difficulty lies opportunity.<br><br>Albert Einstein'
 ];
 
 var images = [
