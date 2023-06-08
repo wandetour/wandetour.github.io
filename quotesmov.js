@@ -208,10 +208,9 @@ function newQuote() {
     image.src = "image/" + newImage() + ".jpg";
   }
 
-function newImage(){
-    var b = 0;
-    var b = Math.floor(Math.random()*(images.length));
-    return b;
+function newImage() {
+  var b = Math.floor(Math.random() * images.length);
+  return b;
 }
 
 
