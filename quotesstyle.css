@@ -10,8 +10,6 @@ html, body {
     width: 100%;
     height: 100%;
     margin: auto;
-    background-image: url(image/1.jpg);
-    background-repeat: no-repeat;
     display: table;
     top: 0;
     background-size: cover;
@@ -88,3 +86,4 @@ input.aButton:focus
         line-height: 100%;
     }
 }
+
