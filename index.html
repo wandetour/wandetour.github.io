@@ -28,8 +28,13 @@
 
         // Execute the callback function once the image has finished loading
         bgImage.onload = function() {
+            
             // Select the body element and remove the "loading" class
             document.body.classList.remove("loading");
+    
+            // Select the h1 element and remove the "hidden" class
+            var h1Element = document.querySelector("h1");
+            h1Element.classList.remove("hidden");
         };
     </script>
 
@@ -51,12 +56,12 @@
     
 </head>
 
-<body class="loading">
+<body>
     
 <section class ="intro">
     <div class="inner">
         <div class="content">
-            <h1>Inspirational Quotes</h1>
+            <h1 class="hidden">Inspirational Quotes</h1>
             <div id = "quoteD"><br>
                 <!-- Quotes display here. -->
             </div>
