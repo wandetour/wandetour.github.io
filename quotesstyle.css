@@ -53,15 +53,15 @@ input.aButton {
     text-shadow: 10px 10px 300px #000; /*hori, vert, blur*/
 }
 
+input.aButton:hover {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
 input.aButton:focus /*retains white outline even after clicks*/
 {
     outline:none;
-}
-
-input.aButton:hover
-{
-    opacity: 1.00;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 #quoteD {
