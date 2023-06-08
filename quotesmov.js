@@ -197,12 +197,16 @@ var images = [
     'image/50.jpg'
 ];
 
-function newQuote(){
-    var a = 0;
-    var a = Math.floor(Math.random()*(quotes.length));
-    document.getElementById("quoteD").innerHTML = quotes[a]
-    $('.intro').css("background-image", "url(image/"+newImage()+".jpg)");
-};
+function newQuote() {
+    var a = Math.floor(Math.random() * quotes.length);
+    document.getElementById("quoteD").innerHTML = quotes[a];
+  
+    var image = new Image();
+    image.onload = function() {
+      $('.intro').css("background-image", "url(" + image.src + ")");
+    };
+    image.src = "image/" + newImage() + ".jpg";
+  }
 
 function newImage(){
     var b = 0;
