@@ -19,9 +19,23 @@
     <meta name="keywords" content="quotes, inspirational quotes, inspiring quotes, motivational quotes, motivating quotes">
     <link rel="stylesheet" type="text/css" href="quotesstyle.css">
     
+    <script>
+        // Create an Image object
+        var bgImage = new Image();
+
+        // Set the source of the image
+        bgImage.src = "image/1.jpg";
+
+        // Execute the callback function once the image has finished loading
+        bgImage.onload = function() {
+            // Select the body element and remove the "loading" class
+            document.body.classList.remove("loading");
+        };
+    </script>
+
     <style>
-        /* Preloading background image */
-        body::before {
+        /* Add a class to the body to indicate loading state */
+        body.loading::before {
             content: "";
             background-image: url(image/1.jpg);
             background-repeat: no-repeat;
@@ -35,11 +49,9 @@
         }
     </style>
     
-    <!-- <script data-ad-client="ca-pub-7874573479098462" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
-    
 </head>
 
-<body>
+<body class="loading">
     
 <section class ="intro">
     <div class="inner">
