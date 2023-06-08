@@ -7,15 +7,6 @@ html, body {
 }
 
 .intro {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    display: table;
-    top: 0;
-    background-size: cover;
-}
-
-.intro .inner {
     display: table-cell;
     vertical-align: middle;
     width: 100%;
@@ -28,11 +19,11 @@ html, body {
     text-align: center;
 }
 
-/*styles heading 1 (h1)*/
+/* styles heading 1 (h1) */
 .content h1 {
     font-family: sans-serif;
     color: #FFFFFF;
-    text-shadow: 10px 10px 300px #000; /*hori, vert, blur*/
+    text-shadow: 10px 10px 300px #000; /* hori, vert, blur */
     font-size: 500%;
 }
 
@@ -48,42 +39,6 @@ input.aButton {
     text-align: center;
     outline: none;
     text-decoration: none;
-    text-shadow: 10px 10px 300px #000; /*hori, vert, blur*/
-}
+    text-shadow: 10px 10px 300px #000; /* hor
 
-input.aButton:hover {
-  background-color: #fff;
-  color: #000;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-input.aButton:focus
-{
-    outline:none;
-}
-
-#quoteD {
-    font-family: sans-serif;
-    color: #ffffff;
-    text-shadow: 10px 10px 100px #000; /*hori, vert, blur*/
-    font-size: 250%;
-}
-
-/*style for mobile and tablet devices*/
-@media screen and (max-width: 768px) {
-    .content h1 {
-        font-size: 250%
-    }
-
-    input.aButton {
-        width: 85px;
-        padding: 5px;
-        font-size: 85%;
-    }
-
-    #quoteD {
-        font-size: 125%;
-        line-height: 100%;
-    }
-}
 
