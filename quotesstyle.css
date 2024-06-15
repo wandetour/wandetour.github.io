@@ -7,10 +7,13 @@ html, body {
 }
 
 .intro {
+    position: relative;
     display: table-cell;
     vertical-align: middle;
     width: 100%;
     max-width: none;
+    background-size: cover;
+    background-image: url('image/43.jpg');
 }
 
 .content {
@@ -22,10 +25,10 @@ html, body {
 .content h1 {
     font-family: sans-serif;
     color: #FFFFFF;
-    text-shadow: 10px 10px 300px #000; 
+    text-shadow: 10px 10px 300px #000;
     font-size: 500%;
-    -webkit-text-stroke: 1pt black; 
-    text-stroke: 1pt black; 
+    -webkit-text-stroke: 1pt black;
+    text-stroke: 1pt black;
 }
 
 input.aButton {
@@ -40,7 +43,7 @@ input.aButton {
     text-align: center;
     outline: none;
     text-decoration: none;
-    text-shadow: 10px 10px 300px #000; 
+    text-shadow: 10px 10px 300px #000;
 }
 
 input.aButton:hover {
@@ -56,10 +59,10 @@ input.aButton:focus {
 #quoteD {
     font-family: sans-serif;
     color: #ffffff;
-    text-shadow: 10px 10px 100px #000; 
+    text-shadow: 10px 10px 100px #000;
     font-size: 250%;
-    -webkit-text-stroke: 1pt black; 
-    text-stroke: 1pt black; 
+    -webkit-text-stroke: 1pt black;
+    text-stroke: 1pt black;
 }
 
 /* style for mobile and tablet devices */
@@ -79,3 +82,12 @@ input.aButton:focus {
         line-height: 100%;
     }
 }
+
+.ad-banner {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
