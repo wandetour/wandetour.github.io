@@ -65,8 +65,8 @@ input.aButton:focus {
     color: #ffffff;
     text-shadow: 10px 10px 100px #000; 
     font-size: 250%;
-    -webkit-text-stroke: 1pt black; 
-    text-stroke: 1pt black; 
+    -webkit-text-stroke: .5pt black; 
+    text-stroke: .5pt black; 
 }
 
 .ad-banner {
@@ -100,7 +100,7 @@ input.aButton:focus {
     }
 
     #quoteD {
-        font-size: 200%;
+        font-size: 250%;
         line-height: 100%;
     }
 
