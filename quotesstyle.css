@@ -29,7 +29,7 @@ html, body {
 .content h1 {
     font-family: sans-serif;
     color: #FFFFFF;
-    text-shadow: 10px 10px 300px #000; 
+    text-shadow: none; 
     font-size: 500%;
     -webkit-text-stroke: 1pt black; 
     text-stroke: 1pt black; 
@@ -47,7 +47,7 @@ input.aButton {
     text-align: center;
     outline: none;
     text-decoration: none;
-    text-shadow: 10px 10px 300px #000; 
+    text-shadow: none; 
 }
 
 input.aButton:hover {
@@ -63,7 +63,7 @@ input.aButton:focus {
 #quoteD {
     font-family: sans-serif;
     color: #ffffff;
-    text-shadow: 5px 5px 50px #000; 
+    text-shadow: none;
     font-size: 250%;
     -webkit-text-stroke: .5pt black; 
     text-stroke: .5pt black; 
