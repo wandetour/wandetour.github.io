@@ -81,10 +81,10 @@ input.aButton:focus {
     padding: 5px 0; 
 }
 
-#ad-container {
+.ad-container {
     display: inline-block;
-    width: 50px; 
-    height: 25px; 
+    width: 50px !important; 
+    height: 25px !important; 
 }
 
 /* style for mobile and tablet devices */
@@ -108,9 +108,9 @@ input.aButton:focus {
         padding: 3px 0; 
     }
 
-    #ad-container {
-        width: 40px; 
-        height: 20px; 
+    .ad-container {
+        width: 40px !important; 
+        height: 20px !important; 
     }
 }
 
