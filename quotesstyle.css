@@ -69,6 +69,24 @@ input.aButton:focus {
     text-stroke: 1pt black; 
 }
 
+.ad-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 0; 
+}
+
+#ad-container {
+    display: inline-block;
+    width: 100px; 
+    height: 50px; 
+}
+
 /* style for mobile and tablet devices */
 @media screen and (max-width: 768px) {
     .content h1 {
@@ -85,22 +103,14 @@ input.aButton:focus {
         font-size: 125%;
         line-height: 100%;
     }
+
+    .ad-banner {
+        padding: 3px 0; 
+    }
+
+    #ad-container {
+        width: 80px; 
+        height: 40px; 
+    }
 }
 
-.ad-banner {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 0;
-}
-
-#ad-container {
-    display: inline-block;
-    width: 40px; 
-    height: 10px; 
-}
