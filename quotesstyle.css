@@ -69,7 +69,7 @@ input.aButton:focus {
     text-stroke: .5pt black; 
 }
 
-.ad-banner {
+/* .ad-banner {
     position: fixed;
     top: 0;
     width: 100%;
@@ -85,7 +85,7 @@ input.aButton:focus {
     display: inline-block;
     width: 600px !important; 
     height: 200px !important; 
-}
+} */
 
 /* style for mobile and tablet devices */
 @media screen and (max-width: 768px) {
@@ -104,14 +104,15 @@ input.aButton:focus {
         line-height: 100%;
     }
 
-    .ad-banner {
+    /* 
+        .ad-banner {
         padding: 3px 0; 
     }
 
     .ad-container {
         width: 100px !important; 
         height: 50px !important; 
-    }
+    } */
 }
 
 
