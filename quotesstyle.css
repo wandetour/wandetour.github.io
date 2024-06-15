@@ -83,8 +83,8 @@ input.aButton:focus {
 
 .ad-container {
     display: inline-block;
-    width: 50px !important; 
-    height: 25px !important; 
+    width: 100px !important; 
+    height: 50px !important; 
 }
 
 /* style for mobile and tablet devices */
@@ -109,8 +109,8 @@ input.aButton:focus {
     }
 
     .ad-container {
-        width: 40px !important; 
-        height: 20px !important; 
+        width: 80px !important; 
+        height: 40px !important; 
     }
 }
 
